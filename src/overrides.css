@@ -1,0 +1,12 @@
+.services-nav {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.services-nav > a {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.services-nav button { padding: 3px; }
