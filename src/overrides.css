@@ -52,3 +52,24 @@
 @media (min-width: 801px) {
   .mobile-cta.button { display: none !important; }
 }
+
+.honeypot {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+.field-error {
+  display: block;
+  margin-top: 5px;
+  color: #a52b2b;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.contact [aria-invalid='true'] { border-color: #a52b2b !important; }
+.contact button:disabled { cursor: wait; opacity: .7; transform: none; }
